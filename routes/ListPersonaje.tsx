@@ -1,6 +1,6 @@
-/*
+
 import axios from "npm:axios";
-import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
+/*import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 import CharactersContainer from "../components/CharactersContainer.tsx";
 
 type Character = {

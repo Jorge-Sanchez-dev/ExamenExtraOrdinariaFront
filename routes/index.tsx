@@ -1,4 +1,6 @@
 //Jorge Sánchez López
+//No se porque no funciona deno deploy
+
 import CompOne from "../islands/CompOne.tsx";
 import CompTwo from "../islands/CompTwo.tsx";
 import CompThree from "../islands/CompThree.tsx";
