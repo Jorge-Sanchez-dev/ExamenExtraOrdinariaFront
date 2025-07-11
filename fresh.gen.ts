@@ -2,19 +2,29 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $ListPersonaje from "./routes/ListPersonaje.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $character_id_ from "./routes/character/[id].tsx";
 import * as $index from "./routes/index.tsx";
-
+import * as $CompOne from "./islands/CompOne.tsx";
+import * as $CompThree from "./islands/CompThree.tsx";
+import * as $CompTwo from "./islands/CompTwo.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
+    "./routes/ListPersonaje.tsx": $ListPersonaje,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/character/[id].tsx": $character_id_,
     "./routes/index.tsx": $index,
   },
-  islands: {},
+  islands: {
+    "./islands/CompOne.tsx": $CompOne,
+    "./islands/CompThree.tsx": $CompThree,
+    "./islands/CompTwo.tsx": $CompTwo,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
