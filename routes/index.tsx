@@ -1,3 +1,4 @@
+//Jorge Sánchez López
 import CompOne from "../islands/CompOne.tsx";
 import CompTwo from "../islands/CompTwo.tsx";
 import CompThree from "../islands/CompThree.tsx";
@@ -10,3 +11,4 @@ export default function Home() {
     </div>
   );
 }
+
