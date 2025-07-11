@@ -1,3 +1,4 @@
+/*
 import axios from "npm:axios";
 import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 import CharactersContainer from "../components/CharactersContainer.tsx";
@@ -53,3 +54,4 @@ export default (props: PageProps<Data>) => {
         </div>
     );
 }
+*/
